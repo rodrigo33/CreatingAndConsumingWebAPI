@@ -9,9 +9,9 @@ namespace ExemploWebAPI.Models
     {
         public string Name { get; set; }
 
-        public Cliente()
+        public Cliente(string texto)
         {
-
+            this.Name = texto;
         }
     }
 }
